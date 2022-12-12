@@ -8,4 +8,13 @@ The C++ part also has a graphical interface using OpenGL, allowing you to "fly" 
 The algorithm simulates an N-body Keplerian system. It maintains a list of all collision possibilities, and jumps from collision to collision. The idea is that for a lot of systems in astronomy, for example the Solar System, collisions are rare, thus making this approach a fast method.
 
 This repository contains all code used for this project, including the libraries.
-This code was developed in Microsoft Visual Studio. If you are downloading and starting it in Visual Studio, you will probably have to change the directories in project settings.
+This code was developed in Microsoft Visual Studio. If you are downloading and starting it in Visual Studio, you will probably have to change the directories in project settings. To get the libraries working in Visual Studio, do the following:
+- At the top of the window, go to Project -> properties
+- Go to VC++ Directories
+- Edit the following two paths:
+  Include directories: <baseFolder>/libraries/include
+  Library directories: <baseFolder>/libraries/lib
+- Go to Linker -> Input
+Add the following two additional dependencies:
+glfw3.lib
+opengl32.lib
