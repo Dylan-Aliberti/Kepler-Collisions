@@ -11,10 +11,10 @@ This repository contains all code used for this project, including the libraries
 This code was developed in Microsoft Visual Studio. If you are downloading and starting it in Visual Studio, you will probably have to change the directories in project settings. To get the libraries working in Visual Studio, do the following:
 - At the top of the window, go to Project -> properties
 - Go to VC++ Directories
-- Edit the following two paths:
-  Include directories: <baseFolder>/libraries/include
+- Edit the following two paths: <br />
+  Include directories: <baseFolder>/libraries/include <br />
   Library directories: <baseFolder>/libraries/lib
-- Go to Linker -> Input
-Add the following two additional dependencies:
-glfw3.lib
+- Go to Linker -> Input <br />
+Add the following two additional dependencies: <br />
+glfw3.lib <br />
 opengl32.lib
