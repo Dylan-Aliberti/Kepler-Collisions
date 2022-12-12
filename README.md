@@ -12,8 +12,8 @@ This code was developed in Microsoft Visual Studio. If you are downloading and s
 - At the top of the window, go to Project -> properties
 - Go to VC++ Directories
 - Edit the following two paths: <br />
-  Include directories: <baseFolder>/libraries/include <br />
-  Library directories: <baseFolder>/libraries/lib
+  Include directories: (BaseFolder)/libraries/include <br />
+  Library directories: (BaseFolder)/libraries/lib
 - Go to Linker -> Input <br />
 Add the following two additional dependencies: <br />
 glfw3.lib <br />
