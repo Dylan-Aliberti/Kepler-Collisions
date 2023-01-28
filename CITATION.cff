@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Analytical propagator with collision detection for
+  Keplerian systems
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Gianni Dylan
+    family-names: Aliberti
+    email: g.d.aliberti@student.tudelft.nl
+    affiliation: Delft University of Technology
+    orcid: 'https://orcid.org/0000-0001-8262-9205'
+  - given-names: Paul Martijn
+    family-names: Visser
+    email: p.m.visser@tudelft.nl
+    affiliation: Delft University of Technology
+identifiers:
+  - type: url
+    value: 'https://ascl.net/2211.002'
+repository-code: 'https://github.com/Dylan-Aliberti/Kepler-Collisions'
+repository: 'https://ascl.net/2211.002'
+abstract: >-
+  The analytic propagator Kepler-Collisions calculates
+  collisions for Keplerian systems. The algorithm maintains
+  a list of collision possibilities and jumps from one
+  collision to the next; since collisions are rare in
+  astronomical scales, jumping from collision to collision
+  and calculating each one is more efficient than
+  calculating all the time steps that are between
+  collisions.
